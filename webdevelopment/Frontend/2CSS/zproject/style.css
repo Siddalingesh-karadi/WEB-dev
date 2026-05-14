@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    text-align:center;
+    padding:60px;
+    background: rgba(0,0,0,0.6);
+    color:white;
+}
+
+.profile-img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:5px solid white;
+}
+
+section{
+    width:70%;
+    margin:auto;
+    background:white;
+    margin-top:20px;
+    padding:25px;
+    border-radius:10px;
+}
+
+h2{
+    border-bottom:2px solid #333;
+}
+
+.skill{
+    margin-top:15px;
+}
+
+.bar{
+    height:10px;
+    background:gray;
+    border-radius:5px;
+}
+
+.html{
+    width:90%;
+    background:orange;
+}
+
+.image-block{
+    text-align:center;
+    margin-top:20px;
+}
+
+.image-block img{
+    width:250px;
+    height:auto;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.4);
+}
+.css{
+    width:80%;
+    background:blue;
+}
+
+.java{
+    width:70%;
+    background:green;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+    background:black;
+    color:white;
+}
